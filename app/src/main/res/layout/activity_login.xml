@@ -38,7 +38,7 @@
                 <AutoCompleteTextView
                     android:id="@+id/LoginEmailField"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:hint="Brugernavn"
                     android:inputType="textEmailAddress"
                     android:maxLines="1"
@@ -72,6 +72,12 @@
                 android:layout_marginTop="16dp"
                 android:text="@string/action_sign_in"
                 android:textStyle="bold" />
+
+            <Button
+                android:text="Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button" />
 
         </LinearLayout>
     </ScrollView>
