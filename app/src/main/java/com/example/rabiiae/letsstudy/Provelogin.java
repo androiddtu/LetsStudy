@@ -23,9 +23,9 @@ public class Provelogin extends AppCompatActivity {
           public void onClick(View view) {
 
 
-              Intent intent= new Intent(Provelogin.this.Kursusoversigt.class);
+              Intent intent= new Intent(Provelogin.this, Kursusoversigt.class);
               startActivity(intent);
-              )
+
 
 
           }
